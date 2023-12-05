@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rating-symbol {
+  cursor: pointer;
+  font-size: 24px;
+  color: grey;
+}
+
+.rating-symbol.filled {
+  color: black;
+}
+
+.rating-symbol.checked {
+  color: green;
+}
